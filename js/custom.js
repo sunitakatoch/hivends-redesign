@@ -1,4 +1,14 @@
 $(document).ready(function(){
+  // sticky header
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 300) {
+        $("header").addClass("stickyheader");
+    } else {
+        $("header").removeClass("stickyheader");
+    }
+    });
+    // 
     $(window).load(function() {
       $(".icon").click(function(){
         $(".mobile-menu,.mask-overlay").addClass("visible");
