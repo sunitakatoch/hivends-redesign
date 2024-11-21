@@ -51,24 +51,19 @@ $(document).ready(function(){
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      
-      autoplaySpeed: 15000,
+     autoplaySpeed: 15000,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
             arrows: false,
-            
-            
-            slidesToShow: 2
+             slidesToShow: 2
           }
         },
         {
           breakpoint: 599,
           settings: {
             arrows: false,
-            
-            
             slidesToShow: 1
           }
         }
