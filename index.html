@@ -15,6 +15,8 @@
   <!--slick css-->
   <link rel="stylesheet" type="text/css" href="./css/slick-css.css">
   <link rel="stylesheet" href="./css/slick-theme.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- custom css -->
   <link rel="stylesheet" href="./css/style.css">
   <title>Hivends</title>
@@ -125,7 +127,7 @@
   </div>
   <!-- header section ends-->
   <!-- hero section -->
-  <div class="hero-sec">
+  <div class="hero-sec " data-aos="fade-in" data-aos-duration="2000" data-aos-delay="50">
     <div class="container">
       <div class="inner-wrapper">
         <div class="col-text">
@@ -142,7 +144,7 @@
   </div>
   <!-- hero section ends-->
   <!-- what we do sec -->
-  <div class="do-sec">
+  <div class="do-sec " data-aos="fade-in" data-aos-duration="2000" data-aos-delay="50">
     <div class="container">
       <div class="do-inner-sec">
         <img src="./images/code-icon.png" alt="">
@@ -195,7 +197,7 @@
   <!-- what we do sec ends-->
 
   <!-- about or why sec -->
-  <div class="about-sec">
+  <div class="about-sec" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="50">
     <div class="container">
       <div class="inner-wrapper">
         <div class="col-text">
@@ -223,7 +225,7 @@
   </div>
   <!-- about or why sec ends-->
   <!--*******************Portfolio Section*************************-->
-  <section class="portfolio-sec sec-spacing">
+  <section class="portfolio-sec sec-spacing" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="50">
     <div class="container">
       <div class="sec-head">
         <h2>My Portfolio</h2>
@@ -273,7 +275,7 @@
   </section>
 
   <!--*******************Review Section*************************-->
-  <section class="review-sec">
+  <section class="review-sec" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="50">
     <div class="container">
       <div class="sec-head">
         <h2>Customer reviews </h2>
@@ -425,7 +427,7 @@
   </section>
 
   <!-- footer sec -->
-  <footer>
+  <footer data-aos="fade-in" data-aos-duration="2000" data-aos-delay="50">
 
     <div class="footer-links">
       <div class="container">
@@ -547,6 +549,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="./js/slick-script.js"></script>
   <script src="/js/custom.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
