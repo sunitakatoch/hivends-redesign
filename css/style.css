@@ -11,12 +11,12 @@
   /* custom fonts */
   @font-face {
     font-family: 'Kanit';
-    src: url('/fonts/Kanit-Italic.eot');
-    src: url('/fonts/Kanit-Italic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Kanit-Italic.woff2') format('woff2'),
-        url('/fonts/Kanit-Italic.woff') format('woff'),
-        url('/fonts/Kanit-Italic.ttf') format('truetype'),
-        url('/fonts/Kanit-Italic.svg#Kanit-Italic') format('svg');
+    src: url('../fonts/Kanit-Italic.eot');
+    src: url('../fonts/Kanit-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-Italic.woff2') format('woff2'),
+        url('../fonts/Kanit-Italic.woff') format('woff'),
+        url('../fonts/Kanit-Italic.ttf') format('truetype'),
+        url('../fonts/Kanit-Italic.svg#Kanit-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -76,12 +76,12 @@
 
 @font-face {
     font-family: 'Kanit';
-    src: url('/fonts/Kanit-SemiBoldItalic.eot');
-    src: url('/fonts/Kanit-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Kanit-SemiBoldItalic.woff2') format('woff2'),
-        url('/fonts/Kanit-SemiBoldItalic.woff') format('woff'),
-        url('/fonts/Kanit-SemiBoldItalic.ttf') format('truetype'),
-        url('/fonts/Kanit-SemiBoldItalic.svg#Kanit-SemiBoldItalic') format('svg');
+    src: url('../fonts/Kanit-SemiBoldItalic.eot');
+    src: url('../fonts/Kanit-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Kanit-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/Kanit-SemiBoldItalic.svg#Kanit-SemiBoldItalic') format('svg');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -89,12 +89,12 @@
 
 @font-face {
     font-family: 'Kanit';
-    src: url('/fonts/Kanit-SemiBold.eot');
-    src: url('/fonts/Kanit-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Kanit-SemiBold.woff2') format('woff2'),
-        url('/fonts/Kanit-SemiBold.woff') format('woff'),
-        url('/fonts/Kanit-SemiBold.ttf') format('truetype'),
-        url('/fonts/Kanit-SemiBold.svg#Kanit-SemiBold') format('svg');
+    src: url('../fonts/Kanit-SemiBold.eot');
+    src: url('../fonts/Kanit-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-SemiBold.woff2') format('woff2'),
+        url('../fonts/Kanit-SemiBold.woff') format('woff'),
+        url('../fonts/Kanit-SemiBold.ttf') format('truetype'),
+        url('../fonts/Kanit-SemiBold.svg#Kanit-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -102,17 +102,18 @@
 
 @font-face {
     font-family: 'Kanit';
-    src: url('/fonts/Kanit-Medium.eot');
-    src: url('/fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Kanit-Medium.woff2') format('woff2'),
-        url('/fonts/Kanit-Medium.woff') format('woff'),
-        url('/fonts/Kanit-Medium.ttf') format('truetype'),
-        url('/fonts/Kanit-Medium.svg#Kanit-Medium') format('svg');
+    src: url('../fonts/Kanit-Medium.eot');
+    src: url('../fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kanit-Medium.woff2') format('woff2'),
+        url('../fonts/Kanit-Medium.woff') format('woff'),
+        url('../fonts/Kanit-Medium.ttf') format('truetype'),
+        url('../fonts/Kanit-Medium.svg#Kanit-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
-/* fonts end */
+/**************** fonts end ****************/
+
 /* *****typography***** */
 body {font-family: 'Kanit', sans-serif;margin: 0;padding: 0;font-size: 16px;
   color: var(--body-text-color);}
@@ -140,8 +141,7 @@ p{line-height: 120%;}
  .btn-gap{margin-top: 40px;}
  .sec-spacing{padding: 50px 0px;}
 
-/* ****************header section**************** */
-
+/*****************header section*****************/
 header .top-row-left {display: flex;display: -webkit-flex; align-items: center;}
 .top-row-left a{color: var(--body-text-color);}
 .top-row-left a:hover{color: var(--primary_color);}
@@ -190,6 +190,8 @@ ul.mobile-list-nav{padding-left:0}
 ul.mobile-list-nav li{margin: 20px 0px;}
 .mask-overlay{position:fixed;background:rgb(100 99 99 / 70%);height:100%;width:100%;top:0;left:0;z-index:99;display:none}
 .toggle-btn i{font-size: 30px;}
+/**************** header ends here ****************/
+
 /* hero section */
 .hero-sec{padding: 80px 0px 50px;}
 .hero-sec .inner-wrapper{display:flex;gap:53px;align-items: center;}
@@ -197,22 +199,15 @@ ul.mobile-list-nav li{margin: 20px 0px;}
 .hero-sec .col-text p{margin:25px 0}
 .hero-sec .col-text h1{max-width:530px;}
 .hero-sec .col-img img {width: 100%;}
+
 /*****************portfolio section*******************/
-
-.portfolio-sec {
-	background-image: url('../images/portfolio-bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	
-}
-
+.portfolio-sec{background-image:url('../images/portfolio-bg.jpg');background-repeat:no-repeat;background-size:cover;text-align:center}
 .img-col img {width: 100%;box-shadow: 0px 8px 38px 0px rgba(144, 110, 207, 0.2);}
 .img-col  a{display: block;}
 .portfolio-sec .row{justify-content:space-between;display:grid;grid-template-columns:repeat(2,1fr);gap:50px 60px}
 .hidden{overflow:hidden;display:none;visibility:hidden}
-/*****************Review Section******************/
 
+/*****************Review Section******************/
 .review-sec .sec-head {text-align: center;}
 .review-outer-box.slick-slide {padding: 0px 17px;margin-bottom: 30px;}
 .review-box h6{color:var(--black);padding:19px 0 15px;transition:.7s;height:80px;font-weight:600;font-size:18px}
@@ -266,7 +261,7 @@ ul.mobile-list-nav li{margin: 20px 0px;}
     .about-inner-row{display:grid;grid-template-columns:repeat(2,1fr);gap:40px}
     .about-inner-row .h4{color: var(--black);}
     .about-inner-row .col{position:relative;padding-left:45px}
-    .about-inner-row .col:after{content:'';position:absolute;background-image:url(/images/check-mark-icon.png);width:29px;height:29px;top:2px;left:0;background-position:center;background-repeat:no-repeat;background-size:cover}
+    .about-inner-row .col:after{content:'';position:absolute;background-image:url(../images/check-mark-icon.png);width:29px;height:29px;top:2px;left:0;background-position:center;background-repeat:no-repeat;background-size:cover}
     .about-sec .col-text{padding-top:50px}
 /* ****************footer**************** */
 footer {background-color: var(--bg-dark);}
@@ -354,9 +349,8 @@ header .header-logo a img{max-width:125px}
     header .header-top-wrapper p{font-size: 14px;padding: 0px 10px;gap: 5px;}
     .portfolio-sec .row{grid-template-columns: 1fr;}
     footer .footer-links .inner-wrapper{grid-template-columns:100%}
-    #mobile-nav {
-        width: 70%;
-    }
+    #mobile-nav {width: 70%;}
+    .about-sec .inner-wrapper{gap: 45px;}
 }
 @media only screen and (max-width:460px){
     header .header-top-row{flex-direction:column;gap:15px;justify-content:center;align-items:center}
